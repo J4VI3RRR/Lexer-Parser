@@ -1,1 +1,2 @@
 # Lexer-Parser
+A Lexer and Parser implementation in Python which tokenizes input code and constructs an abstract syntax tree (AST) to represent its structure. The Lexer processes code into variables, numbers, arithmetic operators (+, -, *, /, =, (, )), comparison operators (>, <, >=, <=, !=, ==), and keywords (if, else, then, while, do). The Parser then builds an AST for arithmetic expressions, variable assignments, if-else statements, and while loops, outputting results in a nested tuple format for easy interpretation.
