@@ -1,0 +1,11 @@
+# Example usage
+code = '''
+x = 5 + 3 + 10
+y = x + 3
+if y > 8 then z = y - x else z = y + x
+x = x / y
+x = y + x * x
+while x > 0 do
+    while y > 0 do
+        x = x - 1
+'''
